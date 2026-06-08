@@ -1,0 +1,22 @@
+{
+  "compatibility": {
+    "projectIndependent": true
+  },
+  "components": {
+    "agents": [],
+    "skills": [
+      {
+        "id": "meow-agent-style",
+        "path": "skills/meow-agent-style"
+      }
+    ],
+    "views": []
+  },
+  "dependencies": {
+    "project": []
+  },
+  "id": "meow-agent-style",
+  "name": "Meow Agent Style",
+  "schemaVersion": 1,
+  "version": "0.1.0"
+}
