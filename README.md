@@ -1,6 +1,6 @@
 # Meow Agent Style
 
-A small Locus Skill plugin that makes the agent end final user-facing replies with `喵` when the Skill is active or invoked.
+A small Locus Rule plugin that asks the agent to end every natural-language sentence in final user-facing replies with `喵`.
 
 ## Install
 
@@ -8,10 +8,4 @@ Install from the Locus plugin registry after registration, or install directly f
 
 ## Use
 
-Invoke the Skill with:
-
-```text
-/meow-agent-style
-```
-
-Then ask the agent to answer normally. The final visible reply should end with `喵`.
+Enable the plugin Rule for the agent from the Locus Rule UI. After it is enabled, final visible replies should add `喵` to every natural-language sentence.
