@@ -1,22 +1,23 @@
 {
+  "schemaVersion": 1,
+  "id": "meow-agent-style",
+  "name": "Meow Agent Style",
+  "version": "0.1.1",
   "compatibility": {
     "projectIndependent": true
-  },
-  "components": {
-    "agents": [],
-    "skills": [
-      {
-        "id": "meow-agent-style",
-        "path": "skills/meow-agent-style"
-      }
-    ],
-    "views": []
   },
   "dependencies": {
     "project": []
   },
-  "id": "meow-agent-style",
-  "name": "Meow Agent Style",
-  "schemaVersion": 1,
-  "version": "0.1.0"
+  "components": {
+    "agents": [],
+    "rules": [
+      {
+        "id": "meow-agent-style",
+        "path": "rules/meow-agent-style.md"
+      }
+    ],
+    "skills": [],
+    "views": []
+  }
 }
